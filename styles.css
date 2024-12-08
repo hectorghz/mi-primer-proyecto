@@ -22,5 +22,5 @@ a:hover{
     text-decoration: underline;
 }
 ul{
-    list-style-type: square;
+    list-style: square;
 }
