@@ -36,3 +36,28 @@ section{
 h2{
     color: darkgreen;
 }
+
+.sobre-mi{
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid#ddd;
+}
+.sobre-mi h2{
+    color: darkgreen;
+}
+.mis-proyectos{
+    background-color: #eef;
+    padding: 10px;
+    border: 1px solid #ccd;
+}
+.mis-proyectos{
+    color: darkblue;
+}
+.contacto{
+    background-color: #fffbe6;
+    padding: 10px;
+    border: 1px solid #ffeb99;
+}
+.contacto h2{
+    color: darkblue;
+}
