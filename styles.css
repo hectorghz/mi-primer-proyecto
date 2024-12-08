@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    font-size: 16px;
+    color: gray;
+
+}
+a {
+    color: blue;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style-type: square;
+}
