@@ -37,6 +37,7 @@ h2{
     color: darkgreen;
 }
 
+
 .sobre-mi{
     background-color: #f9f9f9;
     padding: 10px;
@@ -45,6 +46,12 @@ h2{
 .sobre-mi h2{
     color: darkgreen;
 }
+.sobre-mi img{
+    max-width: 100%;
+    height: auto;
+}
+
+
 .mis-proyectos{
     background-color: #eef;
     padding: 10px;
@@ -53,6 +60,8 @@ h2{
 .mis-proyectos{
     color: darkblue;
 }
+
+
 .contacto{
     background-color: #fffbe6;
     padding: 10px;
@@ -60,4 +69,34 @@ h2{
 }
 .contacto h2{
     color: darkblue;
+}
+
+.contacto form{
+    margin-top: 10px;
+}
+
+.contacto label{
+    display: block;
+    margin-top: 5px;
+
+}
+.contacto input,
+.contacto textarea{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+}
+.contacto input[type="submit"]{
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.contacto input[type="submit"]:hover{
+    background-color: red;
 }
