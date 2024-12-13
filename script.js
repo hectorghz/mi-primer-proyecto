@@ -27,3 +27,19 @@ document.getElementById("remove-paragraph").addEventListener("click", function()
         seccionSobreMi.removeChild(ultimoParrafo);
     }
 });
+
+//validar el formulario de contacto
+
+document.getElementById("contact-form").addEventListener("submit" , function(event){
+    const nombre = document.getElementById("nombre").ariaValueMax;
+    const email = document.getElementById("email").ariaValueMax;
+    const mensaje = document.getElementById("mensaje").ariaValueMax;
+
+    if (nombre == "" || email === "" || mensaje === ""){
+        alert ("Por favor, completa todos los campos antes de enviar el formulario.");
+        event.preventDefault();//evita que el formulario se envie
+    } else if (!email.includes("@")){
+        alert("Por favor, ingresa un email valido");
+        event.preventDefault();
+    }
+})
