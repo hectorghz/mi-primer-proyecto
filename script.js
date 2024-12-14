@@ -13,6 +13,7 @@ document.getElementById("add-paragraph").addEventListener("click", function() {
     //crear nuevo parrafo
     const nuevoParrafo = document.createElement("p");
     nuevoParrafo.textContent = "este es un nuevo parrafo dinamicamente.";
+    nuevoParrafo.setAttribute("contenteditable", "true");
     //añadir el nuevo parrafo a la seccion sobre mi 
     document.querySelector(".sobre-mi").appendChild(nuevoParrafo);
 });
